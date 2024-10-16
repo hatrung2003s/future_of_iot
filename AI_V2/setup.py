@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 from sklearn.preprocessing import StandardScaler
 
 # Bước 1: Đọc dữ liệu từ CSV
-data = pd.read_csv('/home/admin/Desktop/BAI14/data1.csv')  # Thay đổi tên file nếu cần
+data = pd.read_csv('/home/admin/Desktop/BAI14/data.csv')  # Thay đổi tên file nếu cần
 # Bước 2: Tiền xử lý dữ liệu
 # Chuyển đổi trạng thái Light Status và Light Sensor Status thành số (0 và 1)
 label_encoder = LabelEncoder()

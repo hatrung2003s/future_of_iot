@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 import joblib  # Thư viện để lưu và tải mô hình
 
 # Bước 1: Đọc dữ liệu từ file CSV
-data = pd.read_csv('/home/admin/Desktop/BAI16/data1.csv')
+data = pd.read_csv('/home/admin/Desktop/BAI16/data.csv')
 
 # Bước 2: Tiền xử lý dữ liệu
 data['Light Status'] = data['Light Status'].map({'On': 1, 'Off': 0})
